@@ -1,0 +1,458 @@
+/* Text Styles */
+
+:root {
+    --font-family: "Clash display";
+
+    --screen-bg: #f8f8f8;
+    --text-color: #191919;
+    --icon-color: #7d3fff;
+    --white: #f7f7f7;
+
+    --primary-50: #f2ecff;
+    --primary-100: #e5d9ff;
+    --primary-200: #cbb2ff;
+    --primary-300: #b18cff;
+    --primary-400: #9765ff;
+    --primary-500: #7d3fff;
+    --primary-600: #6635ce;
+    --primary-700: #4f2a9d;
+    --primary-800: #38206c; 
+    --primary-900: #22153c;
+
+    --secondary-50: #ffefee;
+    --secondary-100: #ffdfdd;
+    --secondary-200: #ffbfbc;
+    --secondary-300: #ff9e9a;
+    --secondary-400: #ff7e79;
+    --secondary-500: #ff5e57;
+    --secondary-600: #ce4d48;
+    --secondary-700: #9d3d38;
+    --secondary-800: #6c2c29;
+    --secondary-900: #3c1b1a;
+
+    --neutral-50: #f2f2f2;
+    --neutral-100: #e5e5e5;
+    --neutral-200: #cccccc;
+    --neutral-300: #b2b2b2;
+    --neutral-400: #999999;
+    --neutral-500: #808080;
+    --neutral-600: #666666;
+    --neutral-700: #4c4c4c;
+    --neutral-800: #333333;
+    --neutral-900: #191919;
+
+    --success-50: #eaf5eb;
+    --success-100: #d5ecd7;
+    --success-200: #aad8af;
+    --success-300: #80c586;
+    --success-400: #55b15e;
+    --success-500: #2b9e36;
+    --success-600: #25812d;
+    --success-700: #1e6325;
+    --success-800: #18461c;
+    --success-900: #112813;
+    
+    --pending-50: #fef6ea;
+    --pending-100: #fdedd6;
+    --pending-200: #fadbac;
+    --pending-300: #f8c983;
+    --pending-400: #f5b759;
+    --pending-500: #f3a530;
+    --pending-600: #c58629;
+    --pending-700: #966721;
+    --pending-800: #68481a;
+    --pending-900: #e5d9ff;
+
+    --error-50: #fbe8e8;
+    --error-100: #f7d1d1;
+    --error-200: #f0a4a4;
+    --error-300: #e87676;
+    --error-400: #e14949;
+    --error-500: #d91b1b;
+    --error-600: #b01818;
+    --error-700: #861414;
+    --error-800: #5d1111;
+    --error-900: #340e0e;
+}
+
+
+
+
+
+/* TEXT STYLES */
+.h1 {
+    font-family: var(--font-family);
+    font-size: 4.4375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 5.325rem */
+    letter-spacing: -0.08875rem;
+}
+
+.h1-light {
+    font-family: "Clash Display";
+    font-size: 4.4375rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 120%; /* 5.325rem */
+    letter-spacing: -0.08875rem;
+}
+
+.h1-bold {
+    font-family: "Clash Display";
+    font-size: 4.4375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 5.325rem */
+    letter-spacing: -0.08875rem;
+}
+
+.h2 {
+    font-family: "Clash Display";
+font-size: 3.75rem;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 4.5rem */
+letter-spacing: -0.075rem;
+}
+
+.h2-light {
+    font-family: "Clash Display";
+font-size: 3.75rem;
+font-style: normal;
+font-weight: 300;
+line-height: 120%; /* 4.5rem */
+letter-spacing: -0.075rem;
+}
+
+.h2-bold {
+    font-size: 3.75rem;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; /* 4.5rem */
+letter-spacing: -0.075rem;
+}
+
+.h3 {
+    font-family: "Clash Display";
+font-size: 3rem;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 3.6rem */
+letter-spacing: -0.06rem;
+}
+
+.h3-light {
+  font-family: "Clash Display";
+font-size: 3rem;
+font-style: normal;
+font-weight: 300;
+line-height: 120%; /* 3.6rem */
+letter-spacing: -0.06rem;
+}
+
+.h3-bold {
+    font-family: "Clash Display";
+font-size: 3rem;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; /* 3.6rem */
+letter-spacing: -0.06rem;
+}
+
+.h4 {
+    font-family: "Clash Display";
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 3rem */
+letter-spacing: -0.05rem;
+}
+
+.h4-light {
+    font-family: "Clash Display";
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 300;
+line-height: 120%; /* 3rem */
+letter-spacing: -0.05rem;
+}
+
+.h4-bold {
+    font-family: "Clash Display";
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; /* 3rem */
+letter-spacing: -0.05rem;
+}
+
+.h5 {
+   font-family: "Clash Display";
+font-size: 2rem;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 2.4rem */
+letter-spacing: -0.04rem; 
+}
+
+.h5-light {
+    font-family: "Clash Display";
+font-size: 2rem;
+font-style: normal;
+font-weight: 300;
+line-height: 120%; /* 2.4rem */
+letter-spacing: -0.04rem;
+}
+
+.h5-bold {
+    font-family: "Clash Display";
+font-size: 2rem;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; /* 2.4rem */
+letter-spacing: -0.04rem;
+}
+
+.h6 {
+    font-family: "Clash Display";
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 1.8rem */
+letter-spacing: -0.03rem;
+}
+
+.h6-light {
+ font-family: "Clash Display";
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 300;
+line-height: 120%; /* 1.8rem */
+letter-spacing: -0.03rem;
+}
+
+.h6-bold {
+    font-family: "Clash Display";
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; /* 1.8rem */
+letter-spacing: -0.03rem;
+}
+
+.body-text-one {
+    font-family: Satoshi;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 1.75rem */
+letter-spacing: -0.025rem;
+}
+
+.body-text-one-light {
+font-family: Satoshi;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 300;
+line-height: 140%; /* 1.75rem */
+letter-spacing: -0.025rem;
+}
+
+.body-text-one-light-italic {
+font-family: Satoshi;
+font-size: 1.25rem;
+font-style: italic;
+font-weight: 300;
+line-height: 140%; /* 1.75rem */
+letter-spacing: -0.025rem;
+}
+
+.body-text-one-bold {
+ font-family: Satoshi;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 1.75rem */
+letter-spacing: -0.025rem;
+}
+
+.body-text-two {
+font-family: Satoshi;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 1.4rem */
+letter-spacing: -0.02rem;
+}
+
+.body-text-two-light {
+ font-family: Satoshi;
+font-size: 1rem;
+font-style: normal;
+font-weight: 300;
+line-height: 140%; /* 1.4rem */
+letter-spacing: -0.02rem;
+}
+
+.body-text-two-light-italic {
+font-family: Satoshi;
+font-size: 1rem;
+font-style: italic;
+font-weight: 300;
+line-height: 140%; /* 1.4rem */
+letter-spacing: -0.02rem;
+}
+
+.body-text-two-bold {
+font-family: Satoshi;
+font-size: 1rem;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 1.4rem */
+letter-spacing: -0.02rem;
+}
+
+.caption-one {
+    font-family: Satoshi;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 1.05rem */
+letter-spacing: -0.0175rem;
+}
+
+.caption-one-light {
+    font-family: Satoshi;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 300;
+line-height: 120%; /* 1.05rem */
+letter-spacing: -0.0175rem;
+}
+
+.caption-one-light-italic {
+    font-family: Satoshi;
+font-size: 0.875rem;
+font-style: italic;
+font-weight: 300;
+line-height: 120%; /* 1.05rem */
+letter-spacing: -0.0175rem;
+}
+
+.caption-one-bold {
+    font-family: Satoshi;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 1.05rem */
+letter-spacing: -0.0175rem;
+}
+
+.caption-two {
+    font-family: Satoshi;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 0.9rem */
+letter-spacing: -0.015rem;
+}
+
+.caption-two-light {
+    font-family: Satoshi;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 300;
+line-height: 120%; /* 0.9rem */
+letter-spacing: -0.015rem;
+}
+
+.caption-two-light-italic {
+    font-family: Satoshi;
+font-size: 0.75rem;
+font-style: italic;
+font-weight: 300;
+line-height: 120%; /* 0.9rem */
+letter-spacing: -0.015rem;
+}
+
+.caption-two-bold {
+    font-family: Satoshi;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 0.9rem */
+letter-spacing: -0.015rem;
+}
+
+
+/* UI COMPONENTS */
+.button-1 {
+    display: inline-flex;
+    height: 3.25rem;
+    padding: 1rem 2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    flex-shrink: 0;
+    border-radius: 1.125rem;
+    background: var(--primary-500);
+    color: #F8F8F8;
+    text-align: center;
+    font-family: Satoshi;
+    font-weight: 700;
+    font-size: 1rem;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.button-1:hover {
+     display: inline-flex;
+     cursor: pointer;
+    height: 3.25rem;
+    padding: 1rem 2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    flex-shrink: 0;
+    border-radius: 1.125rem;
+    background: var(--primary-400);
+    color: #F8F8F8;
+    text-align: center;
+    font-family: Satoshi;
+    font-weight: 700;
+    font-size: 1rem;
+    border: none;
+    
+}
+
+.button-1:active {
+     display: inline-flex;
+    height: 3.25rem;
+    padding: 1rem 2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    flex-shrink: 0;
+    border-radius: 1.125rem;
+    background: var(--primary-700);
+    color: #F8F8F8;
+    text-align: center;
+    font-family: Satoshi;
+    font-weight: 700;
+    font-size: 1rem;
+    border: none;
+    
+}
+
+
+/* LAYOUT */
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
