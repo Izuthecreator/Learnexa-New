@@ -115,3 +115,63 @@ height: 100%;
  aspect-ratio: 1/1;
  }
 }
+
+/* FOR THE COURSES SECTION */
+
+    @media (min-width: 1325px) and (max-width: 1480px) {
+        
+        .courses-card {
+        width: 25rem;
+    }
+
+    .courses-card-two {
+        width: 25rem;
+    }
+
+    .course-last-container {
+        width: 25rem;
+    }
+    }
+
+@media (min-width: 856px) and (max-width: 980px) {
+        
+        .courses-card {
+        width: 23rem;
+    }
+
+    .courses-card-two {
+        width: 23rem;
+    }
+
+    .course-last-container {
+        width: 23rem;
+    }
+    }
+
+    @media (min-width: 740px) and (max-width: 855px) {
+        
+        .courses-card {
+        width: 21rem;
+    }
+
+    .courses-card-two {
+        width: 21rem;
+    }
+
+    .course-last-container {
+        width: 21rem;
+    }
+    }
+
+    @media screen and (max-width: 600px) {
+        
+      .courses h4 {
+        font-family: "Clash Display";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 2.4rem */
+    letter-spacing: -0.04rem;
+      }
+    }
+   

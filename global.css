@@ -206,7 +206,7 @@ letter-spacing: -0.04rem;
 }
 
 .h5-bold {
-    font-family: "Clash Display";
+font-family: "Clash Display";
 font-size: 2rem;
 font-style: normal;
 font-weight: 600;
@@ -436,7 +436,7 @@ letter-spacing: -0.015rem;
     flex-shrink: 0;
     border-radius: 1.125rem;
     background: var(--primary-700);
-    color: #F8F8F8;
+    color:var(--white);
     text-align: center;
     font-family: Satoshi;
     font-weight: 700;
@@ -444,6 +444,86 @@ letter-spacing: -0.015rem;
     border: none;
     
 }
+
+.button-secondary {
+    display: inline-flex;
+    height: 3.25rem;
+    padding: 1rem 2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    flex-shrink: 0;
+    color: var(--text-color);
+    background-color: transparent;
+    text-align: center;
+    font-family: Satoshi;
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: 1.125rem;
+    border: 2px solid var(--primary-500);
+    transition: all 0.3s ease;
+}
+
+.button-secondary:hover {
+    display: inline-flex;
+    cursor: pointer;
+    height: 3.25rem;
+    padding: 1rem 2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    flex-shrink: 0;
+    color: var(--text-color);
+    background-color: var(--primary-50);
+    text-align: center;
+    font-family: Satoshi;
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: 1.125rem;
+    border: 2px solid var(--primary-500);
+}
+
+.button-secondary:active {
+    display: inline-flex;
+    cursor: pointer;
+    height: 3.25rem;
+    padding: 1rem 2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    flex-shrink: 0;
+    color: var(--text-color);
+    background-color: var(--primary-200);
+    text-align: center;
+    font-family: Satoshi;
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: 1.125rem;
+    border: 2px solid var(--primary-500);
+}
+
+.course-btn {
+    display: inline-flex;
+    height: 3.25rem;
+    padding: 0.75rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    flex-shrink: 0;
+    border-radius: 1rem;
+    background: var(--primary-500);
+    color: #F8F8F8;
+    text-align: center;
+    font-family: Satoshi;
+    font-weight: 700;
+    font-size: 1rem;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+/* .course-btn p {
+    display: none;
+} */
 
 
 /* LAYOUT */
@@ -455,4 +535,9 @@ letter-spacing: -0.015rem;
 .flex-column {
     display: flex;
     flex-direction: column;
+}
+
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
 }
