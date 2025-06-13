@@ -502,24 +502,7 @@ letter-spacing: -0.015rem;
     border: 2px solid var(--primary-500);
 }
 
-.course-btn {
-    display: inline-flex;
-    height: 3.25rem;
-    padding: 0.75rem;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5rem;
-    flex-shrink: 0;
-    border-radius: 1rem;
-    background: var(--primary-500);
-    color: #F8F8F8;
-    text-align: center;
-    font-family: Satoshi;
-    font-weight: 700;
-    font-size: 1rem;
-    border: none;
-    transition: all 0.3s ease;
-}
+
 
 /* .course-btn p {
     display: none;
